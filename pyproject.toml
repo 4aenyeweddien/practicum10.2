@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "practicum10-2"
+version = "0.1.0"
+description = ""
+authors = ["Виктор Манаков <manackov.vitek@gmail.com>"]
+readme = "README.md"
+packages = [{include = "practicum10"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
